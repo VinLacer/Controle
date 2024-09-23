@@ -1,16 +1,13 @@
 import {View, Text, StyleSheet} from "react-native";
 import React, {useContext} from "react";
-import Authentication from "../../data/auth_user";
 import{ AuthContext } from "../../context/auth";
 
 export default function Auth() {
     const {userInfo, setUserInfo} = useContext(AuthContext);
 
-
-
     return (
         <View style={styles.container}>
-            <Authentication userInfo={userInfo} setUserInfo={setUserInfo}/>
+            {/* <Authentication userInfo={userInfo} setUserInfo={setUserInfo}/> */}
         </View>
       );
 }

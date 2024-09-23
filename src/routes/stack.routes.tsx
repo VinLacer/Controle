@@ -11,9 +11,9 @@ export default function StackRoutes() {
     return(
       <Stack.Navigator screenOptions={{headerStyle: {backgroundColor: '#2a6f7f'}
       ,headerTransparent: true, title: '', headerTitleAlign: 'center'}}>
-        <Stack.Screen 
+        {/* <Stack.Screen 
         name="Autentication"
-        component={Auth}/>
+        component={Auth}/> */}
 
         <Stack.Screen 
         name="Home" 
@@ -27,7 +27,7 @@ export default function StackRoutes() {
         <Stack.Screen
         name="Entry"
         component={Entry}
-        options={{title: 'Fazer Lançamento', headerStyle: {backgroundColor: '#f5f5f5'}}} />
+        options={{title: 'Fazer Lançamento', headerStyle: {backgroundColor: 'black'}}} />
 
         <Stack.Screen
         name="Investments"

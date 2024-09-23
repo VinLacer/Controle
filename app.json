@@ -11,14 +11,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "plugins": [
-      "@react-native-google-signin/google-signin"
-    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "package": "com.Controle.lacer",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -27,10 +23,12 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "96908083-37b4-4ddc-ab8b-5553fd618bca"
-      }
-    }
+
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin"
+      ]
+    ]
+    
   }
 }
