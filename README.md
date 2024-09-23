@@ -1,2 +1,2 @@
- ![](https://github.com/VinLacer/Controle/blob/master/Example.gif = 250x250)
+ ![](https://github.com/VinLacer/Controle/blob/master/Example.gif =250x250)
 
